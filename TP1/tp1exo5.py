@@ -1,0 +1,8 @@
+print ("Saisir un Jour")
+jour = int(input())
+print ("Saisir une heure")
+heure = int(input())
+print ("Saisir des minutes")
+minutes = int(input())
+t = (jour*24*60 + heure*60 + minutes)
+print (t)
